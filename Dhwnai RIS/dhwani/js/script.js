@@ -8,7 +8,7 @@ $(document).ready(function(e) {
 	* = Hover text *
 	* Hover text for the last slide
 	***************/
-	$('.with-hover-text').hover(
+	/*$('.with-hover-text').hover(
 		function(e) {
 			$(this).css('overflow', 'visible');
 			$(this).find('.hover-text')
@@ -40,7 +40,7 @@ $(document).ready(function(e) {
 					}
 				);
 		}
-	);
+	);*/
 	
 	var img_loaded = 0;
 	var j_images = [];

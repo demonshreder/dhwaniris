@@ -2,17 +2,24 @@
     background-color:#ff0000;
 }
 
-.batch2,.batch3,.batch4,.batch5,.batch6,.batch7{
+.batch2,.batch3,.batch4,.batch5,.batch6,.batch7,.batch22,.batch33{
     width:20%;
+    height:50%;
     display:none;
     margin-right:2%;
     margin-left:2%;
     padding:0px;
 }
 
-.batch1{
+.batch1,.batch11{
     width:20%;
+    height: 50%;
     margin-right:2%;
     margin-left:2%;
     padding:0px;
+}
+
+iframe{
+    width:50%;
+    height:700;
 }

@@ -533,7 +533,7 @@ body {
 }
 
 .with-hover-text span {
-	display: none;
+	display: normal;
 }
 
 .zoom {

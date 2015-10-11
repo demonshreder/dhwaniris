@@ -56,6 +56,7 @@ $(document).ready(function(){
                         //alert(i);
                         if(j==1){
                             $('.batch11').show();
+                            $('.batch33').hide();
                             j=j+1;
                         }
                         else if(j==2){
@@ -76,6 +77,7 @@ $(document).ready(function(){
                         //alert(i);
                         if(j==1){
                             $('.batch11').show();
+                            $('.batch33').hide();
                             j=j+1;
                         }
                         else if(j==2){
@@ -95,6 +97,7 @@ $(document).ready(function(){
                         $('.batch4').hide();
                         if(j==1){
                             $('.batch11').show();
+                            $('.batch33').hide();
                             j=j+1;
                         }
                         else if(j==2){
@@ -110,6 +113,6 @@ $(document).ready(function(){
                         i = 1;
                         //alert(i);
                     }
-            },5000);
+            },2000);
         
 });

@@ -2,22 +2,21 @@
     background-color:#ff0000;
 }
 
-.batch2,.batch3,.batch4,.batch5,.batch6,.batch7,.batch22,.batch33{
-    width:20%;
-    height:50%;
-    display:none;
-    margin-right:2%;
-    margin-left:2%;
-    padding:0px;
+body{
+    overflow-x: hidden;
 }
 
-.batch1,.batch11{
-    width:20%;
-    height: 50%;
-    margin-right:2%;
-    margin-left:2%;
-    padding:0px;
+#partners1,#supports1{
+    overflow-x: hidden;
 }
+
+#partners,#supports{
+    white-space: nowrap;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+}
+
+
 
 iframe{
     width:50%;

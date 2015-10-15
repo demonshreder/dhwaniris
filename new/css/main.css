@@ -12,6 +12,8 @@ body{
 
 #partners,#supports{
     white-space: nowrap;
+    -webkit-transition-duration: 1s;
+    -webkit-transition-timing-function: ease;
     transition-duration: 1s;
     transition-timing-function: ease;
 }

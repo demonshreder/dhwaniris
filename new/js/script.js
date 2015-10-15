@@ -1,4 +1,5 @@
-<!-- Script to Activate the Carousel -->
+//Script to Activate the Carousel
+
 $(document).ready(function(){
         $('.carousel').carousel({
             interval: 5000 //changes the speed
@@ -114,5 +115,25 @@ $(document).ready(function(){
                         //alert(i);
                     }
             },2000);
+
+//Code for fancybox
+$(".fancybox").fancybox({
+    helpers : {
+        title: {
+            type: 'inside',
+            position: 'top'
+        }
+       
+    },
+    nextEffect: 'fade',
+    prevEffect: 'fade',
+
+//    overlay: {
+//        css: {
+//                'background' :'rgba(58,42,45,0.95)'
+//        }
+//    }
+});
+
         
 });

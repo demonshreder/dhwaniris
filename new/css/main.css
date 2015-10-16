@@ -18,7 +18,10 @@ body{
     transition-timing-function: ease;
 }
 
-
+.justify-text{
+    text-align:justify;
+    text-justify:inter-word;
+}
 
 iframe{
     width:50%;

@@ -1,11 +1,16 @@
 .hello,.hello1,.hello2,.hello3{
-    background-color:#ff0000;
+    background-color:#000000;
 }
 
 body{
     overflow-x: hidden;
     position: relative;
 }
+
+.batch{
+    height: 200px;
+}
+
 
 #partners1,#supports1{
     overflow-x: hidden;
@@ -19,7 +24,10 @@ body{
     transition-timing-function: ease;
 }
 
-
+.justify-text{
+    text-align:justify;
+    text-justify:inter-word;
+}
 
 iframe{
     width:50%;

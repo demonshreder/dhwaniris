@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+
+<!-- Website Designed by Demonshreder, TRex27, Anindya Pandey ©Green Apple Labs
+All right reserved 2015 -->
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -7,6 +11,7 @@
     <meta name="description" content="Dhwani RIS - Reducing Technology Barriers through ICT" />	    
 	<meta name="keywords" content="NGO, survey, Data, ICT, Tools, Development">
 	<meta property="og:title" content="">
+    
     <title>Dhwani Rural Information Systems</title>
 
     <!-- Bootstrap Core CSS -->
@@ -16,7 +21,13 @@
     <link href="css/half-slider.css" rel="stylesheet">
     <link href="css/one-page-wonder.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+<<<<<<< HEAD
     <link href="fancybox/jquery.fancybox.css" rel="stylesheet">
+=======
+    
+    <!-- Fancy Box CSS -->
+    <link href="css/fancybox.css" rel="stylesheet"> 
+>>>>>>> e2e38d665396f28a25a8ad95375260691b290e0f
     <link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-buttons.css"  media="screen">
     <link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-thumbs.css" media="screen">    
     <!--fontawesome--->
@@ -49,10 +60,13 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#">About</a>
+                        <a href="#about">About Us</a>
                     </li>
                     <li>
-                        <a href="#impact">Impact</a>
+                        <a href="#solution">Our Solutions</a>
+                    </li>
+                    <li>
+                        <a href="#impact">Our Impact</a>
                     </li>
                     <li>
                         <a href="#support">Our Support</a>
@@ -61,10 +75,10 @@
                         <a href="#get-involved">Get Involved</a>
                     </li>
                     <li>
-                        <a href="#team">Team</a>
+                        <a href="#team">Our Team</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -118,30 +132,60 @@
     </header>
 
     <!-- Page Content -->
-    <div class="container">
-
-        <div class="row">
-            <div class="col-lg-12">
-                <br><center><h1>We are a development oriented technology organization <b>with a vision to provide affordable, integrated and smart ICT tools for organisations working at BoP levels.</b></h1></center>    
-            </div>
-        </div>
-
-        <hr>
-    </div>
-
     <!-- /.container -->
    <div class="container">
-
-        <hr class="featurette-divider">
-
+        <!--what we do best--->
+       <div class="container" id="about">
+           <div class="row">
+               <div class="col-lg-12">
+                   <br><br><center><h1>We are a development oriented technology organization <b>with a vision to provide affordable, integrated and smart ICT tools for organisations working at BoP levels.</b></h1></center>    
+               </div>
+           </div>
+       </div>
+       <br>
+       <div class="featurette" id="wwdb">
+           <h2 class="featurette-heading">
+                <span class="text-muted"><center>This is what we do best</center></span>
+            </h2>
+           <br><br>
+            <div class="row">
+                <div class="col-12 col-sm-1"></div>
+                <div class="col-12 col-sm-2">
+                    <p><center><i class="fa fa-list-alt fa-5x"></i></center></p>
+					<h2 class="font-semibold"><span class="font-semibold" ><center>Collect</center></span></h2>
+					<center><h4 class="font-thin justify-text">Collect data on the go using mobile phones and view real time data with built in analytics and neat graphs </h4><center>
+                </div>
+                <div class="col-12 col-sm-2">
+					<p><center><img src="images/Icons/Analyse.png" width="60" height="65" style="background-color:black;"></img></center></p>
+					<h2 class="font-semibold"><span class="font-semibold"><center>Analyse</center></span></h2>
+					<h4 class="font-thin justify-text">Monitor progress and measure KPIs of different projects on a single dashboard with relevant data.</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2">
+					<p><center><i class="fa fa-phone fa-5x"></i></center></p>
+					<h2 class="font-semibold"><span class="font-semibold"><center>Reach<center></span></h2>
+					<h4 class="font-thin justify-text">Our outreach platform allows bulk calls (make & receive) at click of a button with built in analytics </h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2">
+					<p><center><img src="images/Icons/MIS.png" width="60" height="65" style="background-color:black;"></img></center></p>
+					<h2 class="font-semibold"><span class="font-semibold"><center>MIS</center></span></h2>
+					<h4 class="font-thin justify-text">MIS which integrates with different systems to allow better control and govern your organization effectively</h4>
+				</div><!-- /col12 -->
+				<div class="col-12 col-sm-2">
+					<p><center><img src="images/Icons/Solutions.png" width="60" height="60" style="background-color:black;"></center></img></p>
+					<h2 class="font-semibold"><span class="font-semibold"><center>Solutions</center></span></h2>
+					<h4 class="font-thin justify-text">Open source & off the shelf products that can be easily deployed saving time. Get in touch, we will be glad!</h4>
+				</div>
+                <div class="col-12 col-sm-1"></div>
+            </div>
+        </div>
         <!-- Solution -->
         <div class="featurette" id="solution">
-            
             <h2 class="featurette-heading">
                 <center>Our Solutions</center>
             </h2>
             <br>
             <div class="row">
+<<<<<<< HEAD
                 <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#nonprofits">mForm</a></button></center>
 <!-- Modal -->
 <div class="modal fade" id="nonprofits" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -226,11 +270,41 @@
   </div>
 </div> 
 </div>
+=======
+                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Non-Profits</a></button></center>
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                          </div>
+                          <div class="modal-body">
+                            <img src="images/1.png">
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                            <a href="images/1.png"><button type="button" class="btn btn-primary">Download</button></a>
+                              <a href="images/1.png">Download</a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                
+                
+                </div>
+                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" onclick="OpenInNewTab('index.html');">CSR</button></center>
+                </div>
+                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" onclick="OpenInNewTab('index.html');">Institutions</button></center>
+                </div>
+                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" onclick="OpenInNewTab('index.html');">Social Enterprises</button></center>
+                </div>
+>>>>>>> e2e38d665396f28a25a8ad95375260691b290e0f
             </div>
             <br><br>
             <div class="row">
                 <div class="col-sm-1">
-                        <i class="fa fa-university fa-5x"></i>
+                    <center><i class="fa fa-university fa-5x"></i></center>
                 </div>
                 <div class="col-sm-5">
                         <p><strong>Non-profits</strong><br>Still juggling with spreadsheets to collate data for different reports? Get in touch for a real time monitoring system to generate reports and share them with your donors.</p>
@@ -238,7 +312,7 @@
                     
                 
                 <div class="col-sm-1 hello">
-                        <p><img src="images/Icons/CSR.png" width="70" height="70"></img></p>        
+                        <center><p><img src="images/Icons/CSR.png" width="70" height="70"></img></p></center>        
                 </div>
                 
                 <div class="col-sm-5">
@@ -248,13 +322,13 @@
             <br>   
             <div class="row">
                 <div class="col-sm-1 hello">
-                    <p><img src="images/Icons/Microfinance.png" width="70" height="70"></img></p>
+                    <center><p><img src="images/Icons/Microfinance.png" width="70" height="70"></img></p></center>
                 </div>
                 <div class="col-sm-5">
 					<p><strong>Microfinance Institutions </strong><br>Recording transactions and activities on paper is past! Reach us for our mobile based finance inclusion platform which helps you go digital and also integrates recent IOT developments - e-KYC, Biometric etc.</p>
                 </div>
                 <div class="col-sm-1">
-                    <p><i class="fa fa-globe fa-5x"></i></p>
+                    <center><p><i class="fa fa-globe fa-5x"></i></p></center>
                 </div>
                 <div class="col-sm-5">
 					<p><strong>Other Social Enterprises</strong><br>Wondering what else we can offer? Give us a shout and we will be glad to help you evaluate applications to enhance your processes. Eg: Community outreach tools, SHG accounting systems etc.</p>
@@ -422,51 +496,50 @@ We created an online wiki for more than 100 goverment schemes detailing every nu
 
         <!-- Partners--> 
 
-        <div class="featurette" id="partners1">
+        <div class="featurette" id="support">
             <h2 class="featurette-heading"><center>Clients we've worked with</center></h2>
             <div id="partners">
                 <span id="span1">
-                    <img src="images/Clients/AKRSP.png" class="batch1">
-                    <img src="images/Clients/CMS.png" class="batch1">
-                    <img src="images/Clients/bajaj.png" class="batch1">
-                    <img src="images/Clients/cohesion.png" class="batch1">
-                    <img src="images/Clients/Columbia.png" class="batch2">
-                    <img src="images/Clients/CPR.png" class="batch2">
-                    <img src="images/Clients/CSPC.png" class="batch2">
-                    <img src="images/Clients/deepak.png" class="batch2">
-                    <img src="images/Clients/Edu_lever.png" class="batch3">
-                    <img src="images/Clients/EScorts.png" class="batch3">
-                    <img src="images/Clients/IIMPACT.png" class="batch3">
-                    <img src="images/Clients/IL&FS.png"class="batch3">
-                    <img src="images/Clients/Infoleap.PNG" class="batch4">
-                    <img src="images/Clients/IRRAD.png" class="batch4">
-                    <img src="images/Clients/LMFI.png" class="batch4">
-                    <img src="images/Clients/logo.png" class="batch4">
-                    <img src="images/Clients/Samarthan.jpeg" class="batch5">
-                    <img src="images/Clients/TCi-Logo.jpg" class="batch5">
-                    <img src="images/Clients/TMF_logo.jpg" class="batch5">
-                    <img src="images/Clients/vrutti.jpeg" class="batch5">
+                    <img src="images/Clients/AKRSP.png" class="batch">
+                    <img src="images/Clients/CMS.png" class="batch">
+                    <img src="images/Clients/bajaj.png" class="batch">
+                    <img src="images/Clients/cohesion.png" class="batch">
+                    <img src="images/Clients/Columbia.png" class="batch">
+                    <img src="images/Clients/CPR.png" class="batch">
+                    <img src="images/Clients/CSPC.png" class="batch">
+                    <img src="images/Clients/deepak.png" class="batch">
+                    <img src="images/Clients/Edu_lever.png" class="batch">
+                    <img src="images/Clients/EScorts.png" class="batch">
+                    <img src="images/Clients/IIMPACT.png" class="batch">
+                    <img src="images/Clients/IL&FS.png"class="batch">
+                    <img src="images/Clients/Infoleap.PNG" class="batch">
+                    <img src="images/Clients/IRRAD.png" class="batch">
+                    <img src="images/Clients/LMFI.png" class="batch">
+                    <img src="images/Clients/logo.png" class="batch">
+                    <img src="images/Clients/Samarthan.jpeg" class="batch">
+                    <img src="images/Clients/TCi-Logo.jpg" class="batch">
+                    <img src="images/Clients/TMF_logo.jpg" class="batch">
+                    <img src="images/Clients/vrutti.jpeg" class="batch">
                 </span>
             </div>
         </div>
 
         <div class="featurette" id="supports1">
-            
             <h2 class="featurette-heading"><center>Partners who support us</center></h2>
             <div id="supports">
                 <span id="span2">
-                    <img src="images/Partners/AFI.png" class="batch11">
-                    <img src="images/Partners/Ashoka.png" class="batch11">
-                    <img src="images/Partners/CSEE_IRMA.png" class="batch11">
-                    <img src="images/Partners/innovate-for-digital-india.jpg" class="batch11">
-                    <img src="images/Partners/new-AFI.png" class="batch22">
-                    <img src="images/Partners/new-Ashoka.png" class="batch22">
-                    <img src="images/Partners/new-CSEE_IRMA.png" class="batch22">
-                    <img src="images/Partners/new-innovate-for-digital-india.jpg" class="batch22">
-                    <img src="images/Partners/new-Unconventionl.jpg" class="batch33">
-                    <img src="images/Partners/new-YourStory.png" class="batch33">
-                    <img src="images/Partners/Unconvention%20l.jpg" class="batch33">
-                    <img src="images/Partners/Your%20Story.png"class="batch33">
+                    <img src="images/Partners/AFI.png" class="batch">
+                    <img src="images/Partners/Ashoka.png" class="batch">
+                    <img src="images/Partners/CSEE_IRMA.png" class="batch">
+                    <img src="images/Partners/innovate-for-digital-india.jpg" class="batch">
+                    <img src="images/Partners/new-AFI.png" class="batch">
+                    <img src="images/Partners/new-Ashoka.png" class="batch">
+                    <img src="images/Partners/new-CSEE_IRMA.png" class="batch">
+                    <img src="images/Partners/new-innovate-for-digital-india.jpg" class="batch">
+                    <img src="images/Partners/new-Unconventionl.jpg" class="batch">
+                    <img src="images/Partners/new-YourStory.png" class="batch">
+                    <img src="images/Partners/Unconvention%20l.jpg" class="batch">
+                    <img src="images/Partners/Your%20Story.png"class="batch">
                 </span>
             </div>
         </div>

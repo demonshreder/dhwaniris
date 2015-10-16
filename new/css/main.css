@@ -4,6 +4,7 @@
 
 body{
     overflow-x: hidden;
+    position:relative;
 }
 
 .batch{
@@ -42,4 +43,12 @@ iframe{
     width: 300px;
     height: 300px;
     overflow: auto;
+}
+.carousel-inner{
+   color: rgba(0,0,0,0.5);
+    height="100%";
+    width="100%;
+}
+.fill{
+color:black;
 }

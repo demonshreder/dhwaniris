@@ -1,10 +1,15 @@
 .hello,.hello1,.hello2,.hello3{
-    background-color:#ff0000;
+    background-color:#000000;
 }
 
 body{
     overflow-x: hidden;
 }
+
+.batch{
+    height: 200px;
+}
+
 
 #partners1,#supports1{
     overflow-x: hidden;

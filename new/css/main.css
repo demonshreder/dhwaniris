@@ -4,6 +4,7 @@
 
 body{
     overflow-x: hidden;
+    position: relative;
 }
 
 #partners1,#supports1{
@@ -23,4 +24,9 @@ body{
 iframe{
     width:50%;
     height:700;
+}
+
+
+.fancybox-nav span {
+  visibility: visible;
 }

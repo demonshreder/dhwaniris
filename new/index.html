@@ -16,18 +16,9 @@
     <link href="css/half-slider.css" rel="stylesheet">
     <link href="css/one-page-wonder.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
-    <link href="css/fancybox.css" rel="stylesheet">
+    <link href="fancybox/jquery.fancybox.css" rel="stylesheet">
     <link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-buttons.css"  media="screen">
     <link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-thumbs.css" media="screen">    
-        <style type="text/css">
- .fancybox-next span {
-  left: auto;
-  right: 20px;
- }
- .fancybox-prev span {
-  left: 20px;
- }
-</style>
     <!--fontawesome--->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -39,7 +30,7 @@
 
 </head>
 
-<body>
+<body data-spy="scroll" data-target="#navbar-example">
 
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
@@ -147,38 +138,94 @@
         <div class="featurette" id="solution">
             
             <h2 class="featurette-heading">
-                <span class="text-muted"><center>Our Solutions</center></span>
+                <center>Our Solutions</center>
             </h2>
             <br>
             <div class="row">
-                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Non-Profits</a></button></center>
+                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#nonprofits">mForm</a></button></center>
 <!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+<div class="modal fade" id="nonprofits" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
         <h4 class="modal-title" id="myModalLabel">Modal title</h4>
       </div>
-      <div class="modal-body">
-        <img src="images/1.png">
+      <div class="modal-body text-center">
+        <img src="images/Infographs/mForm_DhwaniRIS.jpg"  width="550em" height="400em" />
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <a href="images/1.png"><button type="button" class="btn btn-primary">Download</button></a>
-          <a href="images/1.png">Download</a>
+        <a href="images/Infographs/mForm_DhwaniRIS.jpg" target="_blank"><button type="button" class="btn btn-primary">Download</button></a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
       </div>
     </div>
   </div>
-</div>                
-                
-                </div>
-                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" onclick="OpenInNewTab('index.html');">CSR</button></center>
-                </div>
-                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" onclick="OpenInNewTab('index.html');">Institutions</button></center>
-                </div>
-                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" onclick="OpenInNewTab('index.html');">Social Enterprises</button></center>
-                </div>
+</div> 
+</div>
+                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Institutions">mWiki</a></button></center>
+<!-- Modal -->
+<div class="modal fade" id="Institutions" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/Infographs/mWiki_DhwaniRIS.jpg" width="600em" height="400em">
+      </div>
+      <div class="modal-footer">
+        
+        <a href="images/Infographs/mWiki_DhwaniRIS.jpg" target="_blank"><button type="button" class="btn btn-primary">Download</button></a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
+    
+    <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#Social">mVoice</a></button></center>
+<!-- Modal -->
+<div class="modal fade" id="Social" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/Infographs/mVoice_Impact_DhwaniRIS.jpg" height="600em" width="400em">
+      </div> 
+      <div class="modal-footer">
+        
+        <a href="images/Infographs/mVoice_Impact_DhwaniRIS.jpg" target="_blank"><button type="button" class="btn btn-primary">Download</button></a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
+    
+                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#CSR">mCSR</a></button></center>
+<!-- Modal -->
+<div class="modal fade" id="CSR" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body text-center">
+        <img src="images/Infographs/mCSR_DhwaniRIS.jpg" width="350em" height="600em">
+      </div>
+      <div class="modal-footer">
+        <a href="images/Infographs/mCSR_DhwaniRIS.jpg" target="_blank"><button type="button" class="btn btn-primary">Download</button></a>
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div> 
+</div>
             </div>
             <br><br>
             <div class="row">
@@ -595,7 +642,7 @@ Rural Management (IRMA) and ICT graduate with over 2 years experience in waste m
     <script src="js/bootstrap.min.js"></script>
 
     <!-- fancy as fuck box -->
-    <script src="js/fancybox.js"></script>
+    <script src="fancybox/jquery.fancybox.js"></script>
     <script src="fancybox/helpers/jquery.fancybox-buttons.js"></script>
     <script src="fancybox/helpers/jquery.fancybox-media.js"></script>
     <script src="fancybox/helpers/jquery.fancybox-thumbs.js"></script>

@@ -4,7 +4,6 @@
 
 body{
     overflow-x: hidden;
-    position: relative;
 }
 
 .batch{
@@ -34,7 +33,13 @@ iframe{
     height:700;
 }
 
-
 .fancybox-nav span {
   visibility: visible;
+}
+
+
+#impact_thumbnail{
+    width: 300px;
+    height: 300px;
+    overflow: auto;
 }

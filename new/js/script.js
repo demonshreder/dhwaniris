@@ -21,11 +21,15 @@ $(document).ready(function(){
         },2000);
 //Code for fancybox
 $(".fancybox").fancybox({
+    padding:0,
     helpers : {
         title: {
             type: 'inside',
             position: 'top'
-        }
+        },
+         overlay: {
+            locked: false
+        },
        
     },
     nextEffect: 'fade',
@@ -38,5 +42,6 @@ $(".fancybox").fancybox({
 //    }
 });
 
+    
         
-});
+}); 

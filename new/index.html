@@ -20,7 +20,7 @@ All right reserved 2015 -->
     <!-- Custom CSS -->
     <link href="css/half-slider.css" rel="stylesheet">
     <link href="css/one-page-wonder.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">    
+
     <!-- Fancy Box CSS -->
     <link href="fancybox/jquery.fancybox.css" rel="stylesheet"> 
     <link href="fancybox/jquery.fancybox.css" rel="stylesheet">
@@ -28,6 +28,8 @@ All right reserved 2015 -->
     <link rel="stylesheet" href="fancybox/helpers/jquery.fancybox-thumbs.css" media="screen">    
     <!--fontawesome--->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Overrides -->
+ <link href="css/main.css" rel="stylesheet">    
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -181,7 +183,6 @@ All right reserved 2015 -->
             </h2>
             <br>
             <div class="row">
-<<<<<<< HEAD
                 <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#nonprofits">mForm</a></button></center>
 <!-- Modal -->
 <div class="modal fade" id="nonprofits" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -265,38 +266,10 @@ All right reserved 2015 -->
     </div>
   </div>
 </div> 
-</div>
-=======
-                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" data-toggle="modal" data-target="#myModal">Non-Profits</a></button></center>
-                    <!-- Modal -->
-                    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-                      <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                          <div class="modal-header">
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-                          </div>
-                          <div class="modal-body">
-                            <img src="images/1.png">
-                          </div>
-                          <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                            <a href="images/1.png"><button type="button" class="btn btn-primary">Download</button></a>
-                              <a href="images/1.png">Download</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>                
+</div>      
                 
-                </div>
-                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" onclick="OpenInNewTab('index.html');">CSR</button></center>
-                </div>
-                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" onclick="OpenInNewTab('index.html');">Institutions</button></center>
-                </div>
-                <div class="col-12 col-sm-3 font-light"><center><button class="btn btn-primary" onclick="OpenInNewTab('index.html');">Social Enterprises</button></center>
-                </div>
->>>>>>> e2e38d665396f28a25a8ad95375260691b290e0f
-            </div>
+</div>
+</div>
             <br><br>
             <div class="row">
                 <div class="col-sm-1">
@@ -329,16 +302,15 @@ All right reserved 2015 -->
                 <div class="col-sm-5">
 					<p><strong>Other Social Enterprises</strong><br>Wondering what else we can offer? Give us a shout and we will be glad to help you evaluate applications to enhance your processes. Eg: Community outreach tools, SHG accounting systems etc.</p>
                 </div>
-                <div class="col-12 col-sm-1 hello3"></div>
-            </div>
-            
-            
-            
+            <!--    <div class="col-12 col-sm-1 hello3"></div> -->
+            </div>        
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Impact -->
+<div class="col-md-1"></div>
+<div class="col-md-10">
         <div class="featurette" id="impact">
             <h2 class="featurette-heading text-center">Our Impact</h2>
             <!-- Impact One -->
@@ -347,7 +319,7 @@ All right reserved 2015 -->
 <div class="row">
     
   <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div class="thumbnail" id="impact_thumbnail">
           <a class="fancybox" rel="akrsp" title="Home" href="images/portfolio/Akrsphome.png"><img src="images/portfolio/Akrsphome.png" alt=""/></a>
        
 <div class="hidden">
@@ -374,8 +346,8 @@ All right reserved 2015 -->
   </div>
     
  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-        <a class="fancybox" rel="cpr" title="CPR Data" href="images/portfolio/CPR%20data.png"><img src="images/portfolio/CPR%20data.png" alt=""/></a>
+    <div class="thumbnail" id="impact_thumbnail">
+        <a class="fancybox" rel="cpr" title="CPR Data" href="images/portfolio/CPR%20data.png"><img src="images/portfolio/CPR%20data.png"  style="height:8em;" alt=""/></a>
         
 <div class="hidden">
         <a class="fancybox" rel="cpr" title="CPR Home crop" href="images/portfolio/CPR%20home%20crop.png"><img src="images/portfolio/CPR%20home%20crop.png" alt=""/></a>
@@ -392,13 +364,13 @@ All right reserved 2015 -->
         </div>
       <div class="caption">
         <h3 class="text-center">Centre for Policy Research</h3>
-          <p class="text-center">At Rajasthan we create a mobile app to capture school attendance for 2000+ govt school children.</p>
+          <p class="text-center">At Rajasthan we create a mobile app to capture school attendance for 2000+ govt school children.</p>   
       </div>
     </div>
   </div>
              
  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div class="thumbnail" id="impact_thumbnail">
         <a class="fancybox" rel="edulever" title="Edulever" href="images/portfolio/Edulever.png"><img src="images/portfolio/Edulever.png" alt=""/></a>
         <div class="hidden">
     <a class="fancybox" rel="edulever" title="Edulever 2" href="images/portfolio/ed2.png"><img src="images/portfolio/ed2.png" alt=""/></a>
@@ -413,13 +385,13 @@ All right reserved 2015 -->
 
       <div class="caption">
         <h3 class="text-center">Edulever</h3>
-        <p class="text-center">We created ssessment tests for 500+ students to be used throughout India.Huhadslja ljdklsj kdsaj dkaskldjasdklas kljdaskl </p>
+        <p class="text-center">We created ssessment tests for 500+ students to be used throughout India. <br> </p>
     
       </div>
     </div>
   </div>
  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div class="thumbnail" id="impact_thumbnail">
           <a class="fancybox" rel="sehgal" title="Sehgal Home" href="images/portfolio/smhome.png"><img src="images/portfolio/smhome.png" alt=""/></a>
         <div class="hidden">
         
@@ -432,14 +404,13 @@ All right reserved 2015 -->
        <div class="caption">
         <h3 class="text-center">Sehgal Foundation</h3>
         <p class="text-center">For Mewat, Haryana we built a toll free IVR system answering more than 3,000 queries with more than 35,000 outbound calls.</p>
-           
       </div>
     </div>
   </div>
 
 
  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div class="thumbnail" id="impact_thumbnail">
         
           <a class="fancybox" rel="columbia" title="Yojana Wiki 2" href="images/portfolio/Yojanawiki%201.png"><img src="images/portfolio/Yojanawiki%201.png" alt=""/></a>
             
@@ -458,7 +429,7 @@ We created an online wiki for more than 100 goverment schemes detailing every nu
   </div>
     
     <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
+    <div class="thumbnail" id="impact_thumbnail">
           <a class="fancybox" rel="samarthan" title="Samarthan Dashboard" href="images/portfolio/samarthan_dashboard.PNG"><img src="images/portfolio/samarthan_dashboard.PNG" alt=""/></a>
             <div class="hidden">
           <a class="fancybox" rel="samarthan" title="Samarthan Dashboard 2" href="images/portfolio/samarthan_dashboard2.PNG"><img src="images/portfolio/samarthan_dashboard2.PNG" alt=""/></a>
@@ -486,7 +457,7 @@ We created an online wiki for more than 100 goverment schemes detailing every nu
     </div>
   </div>
 
-
+</div>
 </div>
         <hr class="featurette-divider">
 
@@ -549,7 +520,7 @@ We created an online wiki for more than 100 goverment schemes detailing every nu
           <div class="row">
              
     <div class="col-sm-6 col-md-2">
-    <div class="thumbnail">
+    <div class="thumbnail" style="width:12em;">
       <div class="caption">
         <h3 class="text-center">Opportunities</h3>
         <p class="text-center">
@@ -594,8 +565,8 @@ We created an online wiki for more than 100 goverment schemes detailing every nu
   </div>
                           
     
-    <div class="col-sm-6 col-md-3">
-    <div class="thumbnail">
+    <div class="col-sm-6 col-md-2">
+    <div class="thumbnail" style="width:17em;">
       <div class="caption">
         <h3 class="text-center">Partner with us</h3>
         <p class="text-center">

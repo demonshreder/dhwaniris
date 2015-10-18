@@ -42,11 +42,7 @@ iframe{
 }
 
 
-#impact_thumbnail{
-    width: 300px;
-    height: 295px;
-    overflow: auto;
-}
+
 .carousel-caption{
    background-color:rgba(0,0,0,0.5);
     height="100%";
@@ -58,12 +54,8 @@ iframe{
 padding-top: 3em;
 }
 
-
 .btn, .btn-lg{
-border-radius: 0 !important;
-    -webkit-border-radius: 0 !important;
-     -moz-border-radius: 0 !important;
-          border-radius: 0 !important;
+    background-color: #831623;
 }
 .nav, .navbar-nav, .navbar-header,.navbar, .collapse, .navbar-collapse, .navbar-fixed-top, .navbar-inverse, .navbar{
 background-color: #fdfdfd;
@@ -73,28 +65,31 @@ background-color: #fdfdfd;
     text-color:#c0392b;
 }
 
-#team_thumbnail{
-    width: 200px;
-    height: 490px;
-    overflow: auto;
-}
-
 .navbar-inverse .navbar-nav>li>a {
-    color: #c0392b;
+    color: #831623;
 }
 .navbar-inverse .navbar-nav>li>a:hover { 
 color: #000000;;
 }
 
-hr{
-border-top: 1px solid #000;
-width:15em;
+
+#team_thumbnail{
+    width: 210px;
+    height: 490px;
+    overflow: auto;
 }
 
 #involved_thumbnail{
     overflow: auto;
 }
 
-.dropdown-backdrop{
-position:static;
+#impact_thumbnail{
+    width: 300px;
+    height: 295px;
+    overflow: auto;
+}
+
+hr{
+border-top: 1px solid #000;
+width:15em;
 }

@@ -55,7 +55,7 @@ padding-top: 3em;
 .nav, .navbar-nav, .navbar-header,.navbar, .collapse, .navbar-collapse, .navbar-fixed-top, .navbar-inverse, .navbar{
 background-color: #fdfdfd;
     color:#000000;
-    height:4em;
+    min-height: 4em;
     border-color: #fdfdfd;
     text-color:#c0392b;
 }

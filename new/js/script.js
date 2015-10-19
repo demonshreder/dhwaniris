@@ -56,5 +56,10 @@ $(".fancybox").fancybox({
 //        }
 //    }
 });
+    
+$('.nav.navbar-nav').click(function(){
+    $('.navbar-toggle').addClass('collapsed');
+    $('.navbar-collapse.collapse.in').removeClass('in');
+});
         
 }); 

@@ -32,15 +32,10 @@ body{
     text-justify:inter-word;
 }
 
-iframe{
-    width:50%;
-    height:700;
-}
 
 .fancybox-nav span {
   visibility: visible;
 }
-
 
 
 .carousel-caption{
@@ -72,9 +67,11 @@ background-color: #fdfdfd;
 color: #000000;;
 }
 
+.navbar-toggle {
+    background-color:#831623;
+}
 
 #team_thumbnail{
-    width: 210px;
     height: 490px;
     overflow: auto;
 }
